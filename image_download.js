@@ -6,7 +6,7 @@ const path = require('path');
 const imageUrl = 'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/77e0c57214c341bdb22730b58a0ff357~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=2672&h=1471&s=603309&e=png&a=1&b=f9f8f8';
 const localFilePath = path.join(__dirname, 'blog', 'image.png');
 
-
+// 测试
 
 
 // 创建文件流
