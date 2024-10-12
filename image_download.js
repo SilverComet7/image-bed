@@ -27,11 +27,11 @@ https.get(imageUrl, (response) => {
 
   response.on('error', (err) => {
     console.error('Error during download:', err);
-    fs.unlink(localFilePath, () => {}); // 删除部分下载的文件
+    fs.unlink(localFilePath, () => { }); // 删除部分下载的文件
   });
 });
 
 fileStream.on('error', (err) => {
   console.error('Error writing to file:', err);
-  fs.unlink(localFilePath, () => {}); // 删除部分下载的文件
+  fs.unlink(localFilePath, () => { }); // 删除部分下载的文件
 });
